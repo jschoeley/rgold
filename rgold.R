@@ -10,6 +10,8 @@ library(gridBase)   # integrating grid and base graphics
 library(gridExtra)  # extended grid functions
 library(scales)     # different scales, RGB-alpha functions
 library(colorspace) # handle different colour-spaces
+library(rcpal)      # some colour scales (github)
+library(ggtheme)    # flexible minimal ggplot theme (github)
 
 # data transformation
 library(tidyr)      # tidy data, convert between long and wide
@@ -32,3 +34,6 @@ library(survival)   # survival analysis
 # misc
 library(extrafont)  # access fonts on system
 library(devtools)   # developer tools, github interface
+
+# data sources
+library(hmdget)     # download human mortality database data (github)
