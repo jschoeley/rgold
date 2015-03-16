@@ -36,4 +36,5 @@ library(extrafont)  # access fonts on system
 library(devtools)   # developer tools, github interface
 
 # data sources
+library(haven)      # read data from SAS, SPSS and Stata
 library(hmdget)     # download human mortality database data (github)
