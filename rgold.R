@@ -12,6 +12,7 @@ library(scales)        # different scales, RGB-alpha functions
 library(colorspace)    # handle different colour-spaces
 library(rcpal)         # some colour scales (github)
 library(ggtheme)       # flexible minimal ggplot theme (github)
+library(tikzDevice)    # tikz backend for plotting
 
 # data transformation
 library(tidyr)         # tidy data, convert between long and wide
