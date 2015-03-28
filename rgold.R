@@ -17,7 +17,7 @@ library(ggtheme)       # flexible minimal ggplot theme (github)
 library(tidyr)         # tidy data, convert between long and wide
 library(dplyr)         # data verbs, operations on subsets of data
 
-# literate programming
+# reproducible research
 library(xtable)        # latex and html tables
 library(stargazer)     # latex and html tables for regression output
 library(knitcitations) # pull references from web
