@@ -19,6 +19,7 @@ library(tidyr)         # tidy data, convert between long and wide
 library(dplyr)         # data verbs, operations on subsets of data
 
 # reproducible research
+library(knitr)         # dynamic documents
 library(xtable)        # latex and html tables
 library(stargazer)     # latex and html tables for regression output
 library(knitcitations) # pull references from web
