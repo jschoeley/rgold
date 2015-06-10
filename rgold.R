@@ -15,6 +15,7 @@ library(ggtheme)       # flexible minimal ggplot theme (github)
 library(tikzDevice)    # tikz backend for plotting
 
 # data transformation
+library(plyr)          # data transformation, works in parallel
 library(tidyr)         # tidy data, convert between long and wide
 library(dplyr)         # data verbs, operations on subsets of data
 
@@ -42,3 +43,5 @@ library(devtools)      # developer tools, github interface
 # data sources
 library(haven)         # read data from SAS, SPSS and Stata
 library(hmdget)        # download human mortality database data (github)
+library(gapminder)     # gapminder data
+library(eurostat)      # eurostat data
