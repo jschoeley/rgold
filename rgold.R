@@ -5,6 +5,7 @@ library(ggplot2)       # 2d plotting framework
 library(gtable)        # work with ggplot objects
 library(ggvis)         # interactive 2d plotting
 library(ggtern)        # ternary diagrams
+library(ggmap)         # using googlemaps (and other) in plots
 library(grid)          # basic graphing tools
 library(gridBase)      # integrating grid and base graphics
 library(gridExtra)     # extended grid functions
@@ -18,6 +19,7 @@ library(tikzDevice)    # tikz backend for plotting
 library(plyr)          # data transformation, works in parallel
 library(tidyr)         # tidy data, convert between long and wide
 library(dplyr)         # data verbs, operations on subsets of data
+library(lubridate)     # working with dates
 
 # reproducible research
 library(knitr)         # dynamic documents
