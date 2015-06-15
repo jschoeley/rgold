@@ -20,6 +20,7 @@ library(plyr)          # data transformation, works in parallel
 library(tidyr)         # tidy data, convert between long and wide
 library(dplyr)         # data verbs, operations on subsets of data
 library(lubridate)     # working with dates
+library(stringr)       # working with strings
 
 # reproducible research
 library(knitr)         # dynamic documents
