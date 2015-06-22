@@ -22,6 +22,9 @@ library(dplyr)         # data verbs, operations on subsets of data
 library(lubridate)     # working with dates
 library(stringr)       # working with strings
 
+# maths
+library(deSolve)       # solve differential equations
+
 # reproducible research
 library(knitr)         # dynamic documents
 library(xtable)        # latex and html tables
